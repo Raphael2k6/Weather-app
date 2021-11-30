@@ -42,7 +42,7 @@ const dateBuilder = (d) => {
           <input 
             type='text' 
             className="search-bar" 
-            placeholder="search..."
+            placeholder="search for any city..."
             onChange={event => setQuery(event.target.value)}
             value={query}
             onKeyPress={search}
